@@ -5,7 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
-
+#pem file
+my machine.pem
 # Distribution / packaging
 .Python
 build/
