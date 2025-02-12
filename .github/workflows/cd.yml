@@ -1,6 +1,7 @@
 name: Deploy FastAPI
 
 on:
+  workflow_dispatch: # Enables manual execution from GitHub Actions
   pull_request:
     types: [closed]
     branches:
