@@ -1,3 +1,5 @@
+name: Deploy CI pipeline
+
 on:
   workflow_dispatch: # Enables manual execution from GitHub Actions
   pull_request:
