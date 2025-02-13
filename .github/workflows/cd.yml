@@ -1,15 +1,13 @@
 name: Deploy FastAPI to AWS
 
 on:
-  pull_request:
-    types: [closed]
+  push:
     branches:
       - main
   workflow_dispatch:
 
 jobs:
   deploy:
-    name: Deploy FastAPI App to AWS
     runs-on: ubuntu-latest
 
     steps:
